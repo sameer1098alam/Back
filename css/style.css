@@ -512,3 +512,74 @@ span{
         margin-top:2rem;
     }
 }
+
+
+
+
+/* Updating colors */
+:root {
+    --bg-color: #2f446a;
+    --second-bg-color: #425373;
+    --text-color: #fff;
+    --main-color: #0ef;
+    --main-colar: #0ef; /* Typo corrected: should be --main-color */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    /* Other styles remain the same */
+    .navbar {
+        /* Other styles remain the same */
+        display: none;
+    }
+
+    .navbar.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    /* Other styles remain the same */
+}
+
+@media (max-width: 617px) {
+    /* Other styles remain the same */
+    .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Other styles remain the same */
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%; /* Adjusting font size */
+    }
+
+    .contact form .input-box input {
+        width: 100%; /* Adjusting input width */
+    }
+
+    /* Other styles remain the same */
+}
+
+@media (max-width: 365px) {
+    .home-img img {
+        width: 90vw; /* Adjusting image width */
+    }
+
+    .about-img img {
+        width: 90vw; /* Adjusting image width */
+    }
+
+    .footer {
+        flex-direction: column-reverse; /* Adjusting flex direction */
+        /* Other styles remain the same */
+    }
+
+    .footer-text p {
+        text-align: center; /* Adjusting text alignment */
+        margin-top: 2rem; /* Adjusting margin */
+    }
+}
