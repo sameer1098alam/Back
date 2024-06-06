@@ -33,7 +33,8 @@ window.onscroll = () => {
 
 /*----------------==scroll reveal==*/
 // Include the ScrollReveal library
-<script src="https://unpkg.com/scrollreveal"></script>
+// This should be included in your HTML file, not in JavaScript
+// <script src="https://unpkg.com/scrollreveal"></script>
 
 // Initialize ScrollReveal and use it
 ScrollReveal({
